@@ -178,19 +178,14 @@ nav {
   font-size: 40px;
 }
 
-.main_filter {
-  display: flex;
-}
 
 .filter_text {
   margin-top: 50px;
   margin-left: 140px;
   border: none;
-  /* width: 50px;   */
   height: 45px;
   background-color: var(--color-lightgray);
   border-radius: 5px;
-  flex-grow: 1;
 }
 
 .text_p {
@@ -208,7 +203,34 @@ nav {
   border-radius: 5px;
   border: 1px solid black;
 }
-  
+.filter_text2 {
+    display: flex;  
+    align-items: center;
+    margin-left: 900px; 
+    margin-top: -45px;
+    width: 150px;
+    height: 45px; 
+    border-radius: 5px;
+    background-color: #75767b3f;
+    border: none;
+  }
+
+  /* .filter_text3 {
+    display: flex;  
+    align-items: center;
+    margin-left: 1100px; 
+    margin-top: -35px;
+    width: 150px;
+    height: 45px; 
+    border-radius: 5px;
+    background-color: #75767b3f;
+    border: none;
+  } */
+
+  .main_input_p{
+    margin-left: 910px; 
+    margin-top: -30px; 
+  }
 
 /* -------------------------------card-section------------------------------ */
 
